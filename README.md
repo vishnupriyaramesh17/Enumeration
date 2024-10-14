@@ -7,59 +7,79 @@ Enumeration Techniques
 
 To use Google for gathering information and perform enumeration of targets
 
-## STEPS:
+# STEPS:
 
-### Step 1:
+## Step 1:
 
 Install kali linux either in partition or virtual box or in live mode
 
-### Step 2:
+## Step 2:
 
 Investigate on the various Google hacking keywords and enumeration tools as follows:
 
 
-### Step 3:
+## Step 3:
 Open terminal and try execute some kali linux commands
 
-## Pen Test Tools Categories:  
+# Pen Test Tools Categories:  
 
 Following Categories of pen test tools are identified:
 Information Gathering.
 
-Google Hacking:
+## Google Hacking:
 
 Google hacking, also known as Google dorking, is a technique that involves using advanced operators to perform targeted searches on Google. These operators can be used to search for specific types of information, such as sensitive data that may have been inadvertently exposed on the web. Here are some advanced operators that can be used for Google hacking:
 
-site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
+### site: 
+This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
+![Screenshot (473)](https://github.com/user-attachments/assets/fb09aaa5-cfa0-444a-95f7-f0208c1e49a6)
 
-filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
+
+### filetype:
+This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
+![Screenshot (474)](https://github.com/user-attachments/assets/be3cd6f0-b892-4e64-bdbe-e6dee0bfc6f9)
 
 
 
-intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
+### intext:
+This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
+![Screenshot (475)](https://github.com/user-attachments/assets/51704ad7-64f9-4cde-a54e-5179cab3dfa6)
 
 
-inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 
-intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+### inurl:
+This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+![image](https://github.com/user-attachments/assets/df18cc94-9bee-4102-bc47-704e8a323a0f)
 
-link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
 
-cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+### intitle: 
+This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+![Screenshot (476)](https://github.com/user-attachments/assets/98a2bbca-2970-4b29-9e62-5ad0bfa1454a)
+
+
+### link: 
+This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+![Screenshot (478)](https://github.com/user-attachments/assets/7ef62033-4296-41d5-ab2f-b52a52028931)
+
+
+### cache: 
+This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+![Screenshot (479)](https://github.com/user-attachments/assets/698c092a-1be5-4507-8852-c6d57079b1e6)
 
  
-#DNS Enumeration
+# DNS Enumeration
 
 
-##DNS Recon
+## DNS Recon
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
 Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
+
 
 
 
