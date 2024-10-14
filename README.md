@@ -79,15 +79,10 @@ Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TX
 Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
+![WhatsApp Image 2024-10-14 at 13 09 35_2fb2f57e](https://github.com/user-attachments/assets/d021e292-7f19-4ace-add9-a98a89407600)
 
 
-
-
-
-
-
-
-##dnsenum
+## Dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
@@ -101,8 +96,12 @@ Perform reverse lookups on netranges (C class or/and whois netranges) (threaded)
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
+## Output:
+![WhatsApp Image 2024-10-14 at 13 11 13_4e7d7f32](https://github.com/user-attachments/assets/c3e74c6c-ebdb-4d02-aaff-b674a0f35dc0)
 
-##smtp-user-enum
+
+
+## smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 
 
@@ -116,16 +115,16 @@ Telnet allows to connect to remote host based on the port no. For smtp port no i
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ##Output
+ ## Output:
   
-  
+  ![image](https://github.com/user-attachments/assets/f02e546e-6e88-43dc-a31a-6e7a08456a0d)
 
 ## nmap –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
 
-
-## OUTPUT:
+## Output:
+![image](https://github.com/user-attachments/assets/247ec7fb-69c9-41f4-9540-235ffdd30f68)
 
 
 ## RESULT:
